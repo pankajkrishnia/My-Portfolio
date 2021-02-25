@@ -490,16 +490,17 @@ body {
 @media (max-width:860px){
     /* media header */
     .header {
+	background-color: rgba(92, 95, 94, 0.6);
         flex-direction: column;
     }  
     .header .left {
-        font-size: 39px;
-        padding-left: 13px;
-        padding-top: 6px;
+        font-size: 30px;
+        padding-left: 14px;
+        padding-top: 13px;
     }   
     .header .right {
         margin: auto;
-        margin-bottom: -19px;
+        margin-bottom: 3px;
     }   
     .header .right div {
         padding: initial;
@@ -509,6 +510,7 @@ body {
     }
 /* media nav bar */
     .sticky_nav {
+	background-color: rgba(50, 68, 73,0.76);
         flex-direction: column;
         text-align: center;	
     }
@@ -527,6 +529,7 @@ body {
     text-align: center;
 }
 .project_sec {
+    background-color: rgba(59, 110, 141, 0.5);
     flex-direction: column;
     height: auto;
 }
